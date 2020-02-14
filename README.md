@@ -5,5 +5,10 @@ ysy repository edit
 2 add
 3 add
 
+<style>
+  .blue { color:blue; }
+</style>
 
 <b>title</b>
+
+<p class="blue">COLOR</p>
