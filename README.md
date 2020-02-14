@@ -1,2 +1,2 @@
 # hello-ysy
-ysy repository
+ysy repository edit
