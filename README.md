@@ -8,4 +8,4 @@ ysy repository edit
 
 <b>title</b>
 
-<b style='color:blue;'>COLOR</
+<p>COLOR</p>
