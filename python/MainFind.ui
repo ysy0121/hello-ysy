@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>712</width>
+    <height>571</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>단어검색</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/icon/web.png</normaloff>:/icon/web.png</iconset>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>451</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>GroupBox</string>
+   </property>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>311</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>30</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>경로</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>70</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>검색</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>311</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>56</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>검색결과</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>651</width>
+     <height>361</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDial" name="dial">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>20</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>lineEdit2</tabstop>
+  <tabstop>pushButton2</tabstop>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>dial</tabstop>
+  <tabstop>plainTextEdit</tabstop>
+ </tabstops>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

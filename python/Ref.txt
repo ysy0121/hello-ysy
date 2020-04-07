@@ -1,0 +1,10 @@
+파일창 참고 주소
+https://doc.qt.io/qt-5/qfiledialog.html
+https://wikidocs.net/5247
+
+https://has3ong.tistory.com/2
+https://www.korone.net/bbs/board.php?bo_table=qt_qna&wr_id=34302
+https://specialmylife.tistory.com/entry/PyQt5-QFileDialog-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%84%A0%ED%83%9D
+
+
+
