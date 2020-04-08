@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>712</width>
-    <height>571</height>
+    <width>940</width>
+    <height>557</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -37,6 +37,9 @@
       <width>311</width>
       <height>20</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>D:\YSY\LMS\건강나라\www\*.php</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
@@ -74,6 +77,9 @@
       <height>20</height>
      </rect>
     </property>
+    <property name="text">
+     <string>TRIGGER</string>
+    </property>
    </widget>
   </widget>
   <widget class="QLabel" name="label">
@@ -89,16 +95,6 @@
     <string>검색결과</string>
    </property>
   </widget>
-  <widget class="QPlainTextEdit" name="plainTextEdit">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>170</y>
-     <width>651</width>
-     <height>361</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QDial" name="dial">
    <property name="geometry">
     <rect>
@@ -109,6 +105,22 @@
     </rect>
    </property>
   </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>901</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
  </widget>
  <tabstops>
   <tabstop>lineEdit2</tabstop>
@@ -116,7 +128,6 @@
   <tabstop>lineEdit</tabstop>
   <tabstop>pushButton</tabstop>
   <tabstop>dial</tabstop>
-  <tabstop>plainTextEdit</tabstop>
  </tabstops>
  <resources>
   <include location="resource.qrc"/>

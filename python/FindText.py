@@ -10,8 +10,11 @@ class Ftext:
         p = re.compile(sword)
         arr = list()
         cnt = 0
+        ddir = 'D:\YSY\LMS\건강나라\www\*.php'
+        if sdir != '':
+            ddir = sdir
 
-        for i in glob.glob(r'D:\YSY\LMS\건강나라\www\*.php'):
+        for i in glob.glob(ddir):
             with open(i, 'r', encoding='utf-8') as f:
                 for x, y in enumerate(f.readlines(), start=1):
                     m = p.findall(y)

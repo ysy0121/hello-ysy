@@ -19,9 +19,11 @@ class WindowFind(QDialog, form):
 
     def viewText(self):
         sword = self.lineEdit2.text()
+        ddir = self.lineEdit.text()
+
         if sword != '':
             FT = Ftext();
-            sarr = FT.exeCore(sword,'dir')
+            sarr = FT.exeCore(sword,ddir)
             txt = '\n'.join(sarr)
             self.plainTextEdit.setPlainText(txt)
 
